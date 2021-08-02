@@ -1,0 +1,59 @@
+.container-fluid{
+    background-attachment: fixed;
+    height: 100vh;
+    background-image: url(/hair8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+
+.col-sm{
+    background-color: black;
+    border-radius: 5px;
+    opacity: 0.5;
+    width: 200px;
+    height: 200px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+}
+.de-flex{
+    background-color: black;
+    opacity: 0.5;
+    margin-right: 10rem ;
+}
+
+
+
+.btn-light{
+    border-radius: 20px;
+}
+.btn-dark{
+    opacity: 0.5;
+    border-radius: 20px;   
+}
+
+@media  screen and (max-width: 420px){
+.col-sm {display: block;
+
+margin: 20px;
+
+}
+
+
+.container-fluid{
+    height: fit-content ;
+}
+}
+
+@media  screen and (max-width: 320px){
+    .col-sm {display: block;
+    
+    margin: 20px;
+    
+    }
+    
+    
+    .container-fluid{
+        height: fit-content;
+    }
+    }
+    
